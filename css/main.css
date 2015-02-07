@@ -55,18 +55,15 @@ a:hover {
 /* Logo */
 
 #logo {
-    margin: 0;
+    margin: auto 0;
     padding: 0;
     color: #FFFFFF;
 }
 
-#logo h1, #logo p {
-}
-
 #logo h1 {
-    line-height: 120px;
     letter-spacing: -2px;
     font-size: 3.8em;
+    text-align: center;
 }
 
 #logo h1 a {
