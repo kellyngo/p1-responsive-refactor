@@ -91,7 +91,7 @@ a:hover {
     color: #000000;
 }
 
-/* Search */ /****************** Where is the search bar?? ************************/
+/* Search */ /***************** EXTRANEOUS ********************/
 
 #search {
     float: right;
@@ -253,53 +253,38 @@ a:hover {
 }
 
 #sidebar li ul {
-    margin: 0px 0px;
-    padding-bottom: 30px;
+    margin: 0 0;
+    padding-bottom: 2.5em;
 }
 
 #sidebar li li {
-    line-height: 40px;
+    line-height: 3.2em;
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
     border-left: none;
 }
 
-#sidebar li li span {
-    display: block;
-    margin-top: -20px;
-    padding: 0;
-    font-size: 11px;
-    font-style: italic;
-}
-
 #sidebar li li a {
-    padding: 0px 0px 0px 20px;
+    padding: 0em 0em 0em 1.2em;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
 #sidebar h2 {
-    height: 38px;
-    padding: 0px 0px 30px 0px;
+    padding: 0em 0em 1em 0em;
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
 }
 
-#sidebar p {
-    margin: 0 0px;
-    padding: 0px 30px 20px 30px;
-    text-align: justify;
-}
-
 #sidebar a {
-    border: none;
+    text-decoration: none;
 }
 
 #sidebar a:hover {
     text-decoration: underline;
 }
 
-/* Calendar */
+/* Calendar */ /***************** EXTRANEOUS ********************/
 
 #calendar_wrap {
     padding: 20px;
@@ -317,7 +302,7 @@ a:hover {
     text-align: right;
 }
 
-/* Three Column Footer Content */
+/* Three Column Footer Content */ /***************** EXTRANEOUS ********************/
 
 #footer-content {
     overflow: hidden;
@@ -408,7 +393,7 @@ a:hover {
 }
 
 
-.list-style1 {
+.list-style1 { /***************** EXTRANEOUS ********************/
     margin: 0px;
     padding: 0px;
     list-style: none;
