@@ -139,9 +139,8 @@ a:hover {
 
 #menu ul {
     margin: 0;
-    padding: 20px 0px 0px 0px;
+    padding: 0px;
     list-style: none;
-    line-height: normal;
 }
 
 #menu li {
@@ -151,9 +150,7 @@ a:hover {
 
 #menu a {
     display: block;
-    line-height: 100px;
-    margin-right: 1px;
-    padding: 0px 20px 0px 20px;
+    line-height: 4em;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
