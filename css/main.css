@@ -45,19 +45,9 @@ a:hover {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
-.container {
-    width: 1000px;
-    margin: 0px auto;
-}
-
 /* Header */
 
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
-    height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
 }
@@ -65,7 +55,6 @@ a:hover {
 /* Logo */
 
 #logo {
-    float: left;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
@@ -105,7 +94,7 @@ a:hover {
     color: #000000;
 }
 
-/* Search */ /****************** REMOVE THIS NEXT ************************/
+/* Search */ /****************** Where is the search bar?? ************************/
 
 #search {
     float: right;
@@ -147,14 +136,11 @@ a:hover {
 /* Menu */
 
 #menu {
-    float: right;
-    height: 90px;
     margin: 0 auto;
     padding: 0;
 }
 
 #menu ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
@@ -162,7 +148,8 @@ a:hover {
 }
 
 #menu li {
-    float: left;
+    display: inline-block;
+    width: 49.5%;
 }
 
 #menu a {
