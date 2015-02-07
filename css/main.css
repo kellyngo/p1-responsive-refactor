@@ -34,9 +34,6 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
 }
@@ -254,9 +251,6 @@ a:hover {
     float: right;
 }
 
-.post .meta a {
-}
-
 .post .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
@@ -358,9 +352,6 @@ a:hover {
 }
 
 /* Calendar */
-
-#calendar {
-}
 
 #calendar_wrap {
     padding: 20px;
