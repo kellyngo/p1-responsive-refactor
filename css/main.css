@@ -464,13 +464,8 @@ a:hover {
     color: #FFFFFF;
 }
 
-#banner {
-    margin: 0px auto;
-    height: 340px;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner .content {
+#banner img {
+    width: 100%;
 }
 
 
