@@ -174,46 +174,32 @@ a:hover {
 /* Page */
 
 #page {
-    width: 1000px;
+    width: 92%;
     margin: 0 auto;
-    padding: 30px 0px;
 }
 
 /* Content */
 
-#content {
-    float: right;
-    padding: 0px 0px 0px 0px;
-}
-
 .post {
-    overflow: hidden;
-    margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
 
 .post .title {
-    padding: 7px 0px 0px 0px;
+    padding: .6em 0em .2em 0em;
     letter-spacing: -1px;
 }
 
 .post .title a {
-    border: none;
     text-decoration: none;
     color: #222222;
 }
 
 .post .meta {
-    margin-bottom: 30px;
-    padding: 10px 0px 0px 0px;
+    padding: .3em 0em .2em 0em;
     text-align: left;
     font-family: 'Abel', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 300;
-}
-
-.post .meta .date {
-    float: left;
 }
 
 .post .meta .posted {
@@ -221,21 +207,18 @@ a:hover {
 }
 
 .post .entry {
-    padding: 0px 0px 40px 0px;
+    padding: 0em 0em 2em 0em;
     text-align: justify;
 }
 
 .links {
-    padding-top: 20px;
-    margin-bottom: 30px;
+    padding-top: 1em;
+    margin-bottom: 1em;
 }
 
 .more {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
+    padding: 1em 1em;
+    margin-right: .8em;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
@@ -243,10 +226,7 @@ a:hover {
 }
 
 .comments {
-    display: block;
-    float: left;
-    width: 88px;
-    padding: 5px 5px;
+    padding: 1em 1em;
     background: #222222;
     color: #FFFFFF;
     text-align: center;
