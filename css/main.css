@@ -235,3 +235,39 @@ a:hover {
     width: 100%;
 }
 
+
+/************************** Begin Medium *********************/
+
+@media (min-width: 580px) {
+
+    #logo {
+        float: left;
+    }
+
+    #logo h1 {
+        text-align: left;
+        width: 30%;
+        display: inline;
+        padding-left: .2em;
+    }
+
+    #menu {
+        float: right;
+        width: 63%;
+        text-align: right;
+        margin-top: .5em;
+        margin-bottom: .5em;
+        margin-right: .5em;
+    }
+
+    #menu li {
+    width: 22%;
+    }
+
+    #menu a {
+        line-height: 4em;
+    }
+
+
+
+} /************************** End Medium *********************/
