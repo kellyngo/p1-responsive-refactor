@@ -40,9 +40,6 @@ a {
     color: #5E5E5E;
 }
 
-a:hover {
-}
-
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
@@ -217,6 +214,7 @@ a:hover {
     margin: 0 auto;
     padding: 1.5em 0 1.5em 0;
     font-family: 'Abel', sans-serif;
+    background: url(../img/img01.jpg) repeat;
 }
 
 #footer p {
@@ -290,20 +288,17 @@ a:hover {
 
 
     #main-content {
-        width: 66%;
+        width: 70%;
         float: right;
     }
 
     #sidebar {
-        width: 30%;
+        width: 28%;
         float: left;
     }
 
     #footer {
         clear: both;
-        background: url(../img/img01.jpg) repeat;
         font-size: 1.2em;
     }
-
-
-} /************************** End End *********************/
+}
