@@ -288,5 +288,11 @@ a:hover {
         float: left;
     }
 
+    #footer {
+        clear: both;
+        background: url(../img/img01.jpg) repeat;
+        font-size: 1.2em;
+    }
+
 
 } /************************** End End *********************/
