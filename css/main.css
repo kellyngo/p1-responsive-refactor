@@ -279,7 +279,7 @@ a {
     }
 
     #logo h1 {
-        padding: 0em;
+        padding-left: .2em;
     }
 
     #menu {
@@ -301,4 +301,11 @@ a {
         clear: both;
         font-size: 1.2em;
     }
+}
+
+@media (min-width: 1000px) { /************************** Max width styles *********************/
+    #logo h1 {
+        padding-left: 0em;
+    }
+
 }
