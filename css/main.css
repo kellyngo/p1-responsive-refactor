@@ -145,7 +145,8 @@ a {
     margin-bottom: 1em;
 }
 
-.more {
+.more,
+.comments {
     padding: 1em 1em;
     margin-right: .8em;
     background: #222222;
@@ -153,13 +154,8 @@ a {
     text-align: center;
     text-decoration: none;
 }
-
-.comments {
-    padding: 1em 1em;
-    background: #222222;
-    color: #FFFFFF;
-    text-align: center;
-    text-decoration: none;
+.more {
+    margin-right: .8em;
 }
 
 /* Sidebar */
